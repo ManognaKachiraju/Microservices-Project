@@ -1,11 +1,8 @@
+
 # Devops Project: video-converter
 Converting mp4 videos to mp3 in a microservices architecture.
 
-## Architecture
 
-<p align="center">
-  <img src="./Project documentation/ProjectArchitecture.png" width="600" title="Architecture" alt="Architecture">
-  </p>
 
 ## Deploying a Python-based Microservice Application on AWS EKS
 
@@ -64,9 +61,6 @@ Follow these steps to deploy your microservice application:
    - Follow the steps mentioned in [this](https://docs.aws.amazon.com/eks/latest/userguide/service_IAM_role.html) documentation using root user
    - After creating it will look like this:
 
-   <p align="center">
-  <img src="./Project documentation/ekscluster_role.png" width="600" title="ekscluster_role" alt="ekscluster_role">
-  </p>
 
    - Please attach `AmazonEKS_CNI_Policy` explicitly if it is not attached by default
 
@@ -272,3 +266,7 @@ To clean up the infrastructure, follow these steps:
 1. **Delete the Node Group:** Delete the node group associated with your EKS cluster.
 
 2. **Delete the EKS Cluster:** Once the nodes are deleted, you can proceed to delete the EKS cluster itself.
+=======
+# Microservices-Project
+Deploying a Python-based Microservice Application on AWS EKS
+>>>>>>> 56b509854612f3682bb4724cb03303977777f12d
