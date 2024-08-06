@@ -266,7 +266,4 @@ To clean up the infrastructure, follow these steps:
 1. **Delete the Node Group:** Delete the node group associated with your EKS cluster.
 
 2. **Delete the EKS Cluster:** Once the nodes are deleted, you can proceed to delete the EKS cluster itself.
-=======
-# Microservices-Project
-Deploying a Python-based Microservice Application on AWS EKS
->>>>>>> 56b509854612f3682bb4724cb03303977777f12d
+
